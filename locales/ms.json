@@ -1,8 +1,8 @@
 {
   "widgets": {
     "localIpWidget": {
-      "title": "Widget IP Tempatan",
-      "description": "Widget untuk Sebuah widget kecil yang memberitahu anda IP tempatan pelayan anda"
+      "title": "Alamat IP Tempatan",
+      "description": "Sebuah widget kecil yang memberitahu anda IP tempatan pelayan anda"
     }
   }
 }
