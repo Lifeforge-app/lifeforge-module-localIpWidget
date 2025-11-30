@@ -1,0 +1,8 @@
+{
+  "widgets": {
+    "localIpWidget": {
+      "title": "本地IP小部件",
+      "description": "为一个小部件，可以告诉您服务器的本地IP而量身定制的小部件"
+    }
+  }
+}

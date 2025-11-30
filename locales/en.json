@@ -1,0 +1,8 @@
+{
+  "widgets": {
+    "localIpWidget": {
+      "title": "Local IP Widget",
+      "description": "Widget for A small widget that tells you the local IP of your server"
+    }
+  }
+}
