@@ -1,7 +1,10 @@
-import { forgeController, forgeRouter } from '@functions/routes'
 import os from 'os'
 
-const getLocalIp = forgeController
+import { forgeRouter } from '@lifeforge/server-utils'
+
+import forge from './forge'
+
+const getLocalIp = forge
   .query()
   .description('Get local IP address')
   .input({})

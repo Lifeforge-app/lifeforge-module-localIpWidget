@@ -1,8 +1,8 @@
 import forgeAPI from '@/utils/forgeAPI'
 import { Icon } from '@iconify/react'
 import { useQuery } from '@tanstack/react-query'
-import { Widget, WithQuery } from 'lifeforge-ui'
-import type { WidgetConfig } from 'shared'
+import { Widget, WithQuery } from '@lifeforge/ui'
+import type { WidgetConfig } from '@lifeforge/shared'
 
 function LocalIpWidget() {
   const localIpQuery = useQuery(

@@ -1,5 +1,6 @@
 import { type AppRoutes } from '@server/core/routes/routes.type'
-import { createForgeAPIClient } from 'shared'
+
+import { createForgeAPIClient } from '@lifeforge/shared'
 
 if (!import.meta.env.VITE_API_HOST) {
   throw new Error('VITE_API_HOST is not defined')
