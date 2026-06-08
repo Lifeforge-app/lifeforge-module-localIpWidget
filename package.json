@@ -1,13 +1,13 @@
 {
-  "name": "@lifeforge/lifeforge--local-ip-widget",
-  "displayName": "Local IP Widget",
+  "name": "@lifeforge/lifeforge--utility-widgets",
+  "displayName": "Utility Widget",
   "repository": {
     "type": "git",
     "url": "https://github.com/lifeforge-app/lifeforge-module-localIpWidget.git"
   },
   "version": "0.0.1",
   "author": "Melvin Chia <melvinchia623600@gmail.com>",
-  "description": "A small widget that tells you the local IP of your server",
+  "description": "A collection of small and useful widgets",
   "scripts": {
     "types": "cd client && bun tsc",
     "build:client": "cd client && bun run vite build",
