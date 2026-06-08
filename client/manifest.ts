@@ -1,12 +1,18 @@
-import type { ModuleConfig } from '@lifeforge/shared'
+import { createForgeModuleClient } from '@lifeforge/federation'
 
-export default {
+import contract from './contract'
+
+const { forgeAPI, ...manifest } = createForgeModuleClient({
   routes: {},
   hidden: true,
+  contract,
   widgets: [
     () => import('@/widgets/LocalIp'),
     () => import('@/widgets/Date'),
     () => import('@/widgets/Clock'),
     () => import('@/widgets/Quotes')
   ]
-} satisfies ModuleConfig
+})
+
+export default manifest
+export { forgeAPI }

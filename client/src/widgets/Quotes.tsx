@@ -12,7 +12,7 @@ import {
   colorWithOpacity
 } from '@lifeforge/ui'
 
-import forgeAPI from '@/utils/forgeAPI'
+import { forgeAPI } from '@/manifest'
 
 export default function Quotes() {
   const quoteQuery = useQuery<{ q: string; a: string }[]>(

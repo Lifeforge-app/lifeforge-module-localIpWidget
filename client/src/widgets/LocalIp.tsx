@@ -3,7 +3,7 @@ import { useQuery } from '@tanstack/react-query'
 import type { WidgetConfig } from '@lifeforge/shared'
 import { Flex, Icon, Stack, Text, Widget, WithQuery } from '@lifeforge/ui'
 
-import forgeAPI from '@/utils/forgeAPI'
+import { forgeAPI } from '@/manifest'
 
 function LocalIp() {
   const localIpQuery = useQuery(forgeAPI.getLocalIp.queryOptions())
