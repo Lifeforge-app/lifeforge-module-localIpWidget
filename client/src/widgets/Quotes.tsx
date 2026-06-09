@@ -1,9 +1,8 @@
 import { useQuery } from '@tanstack/react-query'
 import tinycolor from 'tinycolor2'
 
-import { usePersonalization } from '@lifeforge/shared'
 import type { WidgetConfig } from '@lifeforge/shared'
-import {
+import { usePersonalization ,
   Box,
   Card,
   Icon,
