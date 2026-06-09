@@ -3,8 +3,8 @@ import weekOfYear from 'dayjs/plugin/weekOfYear'
 import { useRef } from 'react'
 import tinycolor from 'tinycolor2'
 
-import { useDivSize , Card, Flex, Text, usePersonalization } from '@lifeforge/ui'
 import { type WidgetConfig } from '@lifeforge/configs'
+import { Card, Flex, Text, useDivSize, usePersonalization } from '@lifeforge/ui'
 
 import { arabicToChinese } from '../utils/arabicToChineseNumber'
 
