@@ -1,7 +1,7 @@
 import dayjs from 'dayjs'
 import { useEffect, useState } from 'react'
 
-import { type WidgetConfig } from '@lifeforge/shared'
+import { type WidgetConfig } from '@lifeforge/configs'
 import { Card, Flex, Text } from '@lifeforge/ui'
 
 function Clock({ dimension: { h } }: { dimension: { w: number; h: number } }) {

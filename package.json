@@ -13,12 +13,6 @@
     "build:client": "cd client && bun run vite build",
     "build:server": "bun build ./server/index.ts --outdir ./server/dist --target bun --external @lifeforge/server-utils --external zod"
   },
-  "dependencies": {
-    "@iconify/react": "^6.0.2",
-    "@lifeforge/ui": "workspace:*",
-    "@lifeforge/shared": "workspace:*",
-    "vite": "^7.1.9"
-  },
   "devDependencies": {
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
@@ -29,9 +23,9 @@
     "category": "Utilities"
   },
   "peerDependencies": {
+    "@lifeforge/api": "workspace:*",
     "@lifeforge/server-utils": "workspace:*",
     "@lifeforge/ui": "workspace:*",
-    "@lifeforge/shared": "workspace:*",
     "@lifeforge/federation": "workspace:*",
     "@lifeforge/configs": "workspace:*"
   }

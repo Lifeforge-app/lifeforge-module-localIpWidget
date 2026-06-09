@@ -1,14 +1,15 @@
 import { useQuery } from '@tanstack/react-query'
 import tinycolor from 'tinycolor2'
 
-import type { WidgetConfig } from '@lifeforge/shared'
-import { usePersonalization ,
+import type { WidgetConfig } from '@lifeforge/configs'
+import {
   Box,
   Card,
   Icon,
   Text,
   WithQuery,
-  colorWithOpacity
+  colorWithOpacity,
+  usePersonalization
 } from '@lifeforge/ui'
 
 import { forgeAPI } from '@/manifest'

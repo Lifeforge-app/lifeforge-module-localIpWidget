@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query'
 
-import type { WidgetConfig } from '@lifeforge/shared'
+import type { WidgetConfig } from '@lifeforge/configs'
 import { Flex, Icon, Stack, Text, Widget, WithQuery } from '@lifeforge/ui'
 
 import { forgeAPI } from '@/manifest'
