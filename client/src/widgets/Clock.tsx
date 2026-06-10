@@ -66,7 +66,6 @@ function Clock({ dimension: { h } }: { dimension: { w: number; h: number } }) {
 export default Clock
 
 export const config: WidgetConfig = {
-  namespace: 'apps.utilityWidgets',
   id: 'clock',
   icon: 'tabler:clock',
   minW: 2,

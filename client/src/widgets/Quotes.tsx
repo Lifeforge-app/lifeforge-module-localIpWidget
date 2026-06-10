@@ -92,7 +92,6 @@ export default function Quotes() {
 }
 
 export const config: WidgetConfig = {
-  namespace: 'apps.utilityWidgets',
   id: 'quotes',
   icon: 'tabler:quote',
   minH: 2,

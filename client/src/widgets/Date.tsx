@@ -111,7 +111,6 @@ export default function DateWidget({
 }
 
 export const config: WidgetConfig = {
-  namespace: 'apps.utilityWidgets',
   id: 'date',
   icon: 'tabler:calendar-clock',
   minW: 2,

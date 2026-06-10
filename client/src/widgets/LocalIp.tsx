@@ -9,7 +9,7 @@ function LocalIp() {
   const localIpQuery = useQuery(forgeAPI.getLocalIp.queryOptions())
 
   return (
-    <Widget icon="tabler:device-desktop-pin" namespace="apps.utilityWidgets">
+    <Widget icon="tabler:device-desktop-pin">
       <WithQuery loaderSize="1em" query={localIpQuery} showRetryButton={false}>
         {data => (
           <Stack height="100%">
@@ -41,7 +41,6 @@ function LocalIp() {
 export default LocalIp
 
 export const config: WidgetConfig = {
-  namespace: 'apps.utilityWidgets',
   id: 'localIpWidget',
   icon: 'tabler:device-desktop-pin',
   minH: 1,
