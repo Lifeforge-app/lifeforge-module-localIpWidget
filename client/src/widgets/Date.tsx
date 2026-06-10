@@ -16,9 +16,7 @@ export default function DateWidget({
   dimension: { w: number; h: number }
 }) {
   const containerRef = useRef<HTMLDivElement | null>(null)
-
   const { width } = useDivSize(containerRef)
-
   const { language, derivedThemeColor: themeColor } = usePersonalization()
 
   return (

@@ -6,7 +6,6 @@ import { Card, Flex, Text } from '@lifeforge/ui'
 
 function Clock({ dimension: { h } }: { dimension: { w: number; h: number } }) {
   const [time, setTime] = useState(dayjs().format('HH:mm'))
-
   const [second, setSecond] = useState(dayjs().format('ss'))
 
   useEffect(() => {
