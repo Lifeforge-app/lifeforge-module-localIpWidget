@@ -1,4 +1,5 @@
 {
+  "title": "Utility Widgets",
   "widgets": {
     "localIpWidget": {
       "title": "Local IP Address",

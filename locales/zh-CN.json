@@ -1,4 +1,5 @@
 {
+  "title": "实用小部件",
   "widgets": {
     "localIpWidget": {
       "title": "本地IP地址",
