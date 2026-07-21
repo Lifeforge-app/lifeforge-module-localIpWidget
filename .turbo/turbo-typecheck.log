@@ -1,0 +1,4 @@
+$ pnpm run typecheck:client && pnpm run typecheck:server
+$ cd client && tsc
+[ELIFECYCLE] Command failed.
+[ELIFECYCLE] Command failed.
